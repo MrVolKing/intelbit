@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon/icomoon.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-handshake:before {
+  content: "\e906";
+}
+.icon-calendar:before {
+  content: "\e900";
+}
+.icon-coding:before {
+  content: "\e901";
+}
+.icon-contract:before {
+  content: "\e902";
+}
+.icon-design:before {
+  content: "\e903";
+}
+.icon-domain:before {
+  content: "\e904";
+}
+.icon-functional:before {
+  content: "\e905";
+}
+.icon-hexagon:before {
+  content: "\e907";
+}
+.icon-link:before {
+  content: "\e908";
+}
+.icon-meeting:before {
+  content: "\e909";
+}
+.icon-megaphone:before {
+  content: "\e90a";
+}
+.icon-mobile:before {
+  content: "\e90b";
+}
+.icon-piggy-bank:before {
+  content: "\e90c";
+}
+.icon-strategy:before {
+  content: "\e90d";
+}
+.icon-target:before {
+  content: "\e90e";
+}
+.icon-team:before {
+  content: "\e90f";
+}
+.icon-testing:before {
+  content: "\e910";
+}
+.icon-tz:before {
+  content: "\e911";
+}
+.icon-web:before {
+  content: "\e912";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
