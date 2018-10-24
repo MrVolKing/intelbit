@@ -13,6 +13,8 @@ $('.btn2').click(function() {
     $('.btn_morepages').css('display', 'none');
     $('.btn_moredesign').css('display', 'block');
     $('.hiddenblockdesign').css('display', 'none');
+    $('.hiddenblockdesign2').css('display', 'none');
+    $('.hiddenblockdesign3').css('display', 'none');
 
     
 });
@@ -88,6 +90,10 @@ $('.popap1').click(function() {
     $('body').css('overflow','visible');
     
 });
+
+
+
+
 
 $('.btn_popapdesign_2').click(function() {
     $('.popap2').fadeIn(300).css('display', 'flex');

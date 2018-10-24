@@ -17,236 +17,320 @@
                                                   /* portfolio */
 
 .portfolio{
-    background-image: none;
-    
+background-image: none;
+
 }
 
 .portfolio .container{
-    max-width: 1230px !important;
-    height: 100%; 
-    padding: 75px 30px 82px 30px;
-    border-right: 1px solid #e8e8e8;
-    border-left: 1px solid #e8e8e8;
+max-width: 1230px !important;
+height: 100%; 
+padding: 75px 30px 82px 30px;
+border-right: 1px solid #e8e8e8;
+border-left: 1px solid #e8e8e8;
 }
 
 .portfolio .container::before{
-    position: absolute;
-    content: "";
-    z-index: 1;
-    bottom: 0px;
-    left: -15.5px;
-    width: calc(100% + 31px);
-    height: 2px;
-    background-image: linear-gradient(90deg,#303030 0,#303030 3px,transparent 0,transparent calc(50% - 1.5px),#303030 calc(50% - 1.5px),#303030 calc(50% + 1.5px),transparent calc(50% + 1.5px),transparent calc(100% - 3px),#303030 calc(100% - 3px),#303030);
+position: absolute;
+content: "";
+z-index: 1;
+bottom: 0px;
+left: -15.5px;
+width: calc(100% + 31px);
+height: 2px;
+background-image: linear-gradient(90deg,#303030 0,#303030 3px,transparent 0,transparent calc(50% - 1.5px),#303030 calc(50% - 1.5px),#303030 calc(50% + 1.5px),transparent calc(50% + 1.5px),transparent calc(100% - 3px),#303030 calc(100% - 3px),#303030);
 }
 
 .portfolio:after{
-    position: absolute;
-    content: "";
-    top: 0;
-    left: calc(50% - .5px);
-    width: 1px;
-    height: 100%;
-    background-color: #e8e8e8;
-    z-index: -1;
+position: absolute;
+content: "";
+top: 0;
+left: calc(50% - .5px);
+width: 1px;
+height: 100%;
+background-color: #e8e8e8;
+z-index: -1;
 }
 
 
 .portfolio .portfolio__title p{
-    color: #303030;
-    /* font-family: "Source Code Roman"; */
-    font-size: 50px;
-    font-weight: 300;
-    line-height: 60px;
-    text-align: center;
-    margin-bottom: 48px;
+color: #303030;
+font-size: 50px;
+font-weight: 300;
+line-height: 60px;
+text-align: center;
+margin-bottom: 48px;
 }
 
 .portfolio__blockbuttons{
-    display: flex;
-    justify-content: center;
+display: flex;
+justify-content: center;
 }
 
 .portfolio__blockblocks{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 48px;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin-top: 48px;
 }
 
 .portfolio__blockbuttons .btn1{
-    width: 253px;
-    height: 48px;
-    font-size: 20px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #2a88ff;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border: 2px solid #2a88ff;
-    background-color: #ffffff;
-    transition: 0.2s;
+width: 253px;
+height: 48px;
+font-size: 20px;
+font-weight: 400;
+text-transform: uppercase;
+color: #2a88ff;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+border: 2px solid #2a88ff;
+background-color: #ffffff;
+transition: 0.2s;
 }
 
 .portfolio__blockbuttons .btn2{
-    width: 253px;
-    height: 48px;
-    font-size: 20px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #2a88ff;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border: 2px solid #2a88ff;
-    background-color: #ffffff;
-    transition: 0.2s;
+width: 253px;
+height: 48px;
+font-size: 20px;
+font-weight: 400;
+text-transform: uppercase;
+color: #2a88ff;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+border: 2px solid #2a88ff;
+background-color: #ffffff;
+transition: 0.2s;
 }
 
 .portfolio__blockbuttons .active{
-    background-color: #2a88ff;
-    font-weight: 700;
-    color: white;
-    transition: 0.2s;
+background-color: #2a88ff;
+font-weight: 700;
+color: white;
+transition: 0.2s;
 }
 
 .portfolio__blockbuttons .btn1:hover{
-    background-color: #2a88ff;
-    font-weight: 700;
-    color: white;
-    transition: 0.2s;
+background-color: #2a88ff;
+font-weight: 700;
+color: white;
+transition: 0.2s;
 }
 
 .portfolio__blockbuttons .btn2:hover{
-    background-color: #2a88ff;
-    font-weight: 700;
-    color: white;
-    transition: 0.2s;
+background-color: #2a88ff;
+font-weight: 700;
+color: white;
+transition: 0.2s;
 }
 
 
 .portfolio__blockblocks .blockitem{
-    width: 570px;
-    height: 440px;
-    box-shadow: 0 20px 30px rgba(23, 117, 236, 0.25);
-    border-radius: 5px;
-    background-color: #ffffff;
-    margin-bottom: 66px;
-    padding: 8px 7px 0 7px;
+width: 570px;
+height: 440px;
+box-shadow: 0 20px 30px rgba(23, 117, 236, 0.25);
+border-radius: 5px;
+background-color: #ffffff;
+margin-bottom: 66px;
+padding: 8px 7px 0 7px;
 }
 
-.hiddenblock{
-    display: none;
+.hiddenblockpages{
+display: none;
+}
+
+.hiddenblockdesign{
+display: none;
 }
 
 .portfolio__blockblocks .blockitem .blockitem__foto{
-    width: 556px;
-    height: 319px;
-    overflow: hidden;
+width: 556px;
+height: 319px;
+overflow: hidden;
 }
 
 .blockitem__description{
-    display: flex;
-    justify-content: space-between;
-    padding: 32px 24px 0 12px;
+display: flex;
+justify-content: space-between;
+padding: 32px 24px 0 12px;
 }
 
 .blockitem__description .blockitem__title{
-    color: #303030;
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 0.72px;
-    text-transform: uppercase;
-    margin-bottom: 4px;
+color: #303030;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 0.72px;
+text-transform: uppercase;
+margin-bottom: 4px;
 }
 
 .blockitem__description .blockitem__text{
-    color: #747474;
-    font-size: 16px;
-    font-weight: 300;
+color: #747474;
+font-size: 16px;
+font-weight: 300;
 }
 
-.blockitem__descriptionright button{
-    width: 169px;
-    height: 51px;
-    border-radius: 5px;
-    border: none;
-    background-color: white;
-    border-left: 2px solid #00deff;
-    border-right: 2px solid #8c4bff;
-    box-sizing: border-box;
-    background-position: 0 0, 0 100% ;
-    background-repeat: no-repeat;
-    background-size: 100% 2px;
-    background-image: linear-gradient(to right, #00deff 0%, #8c4bff 100%), linear-gradient(to right, #00deff 0%, #8c4bff 100%);
-    color: #303030;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 48px;
-    text-transform: uppercase;
-    transition: 0.2s;
+.blockitem__descriptionright div{
+width: 169px;
+height: 51px;
+border-radius: 5px;
+border: none;
+background-color: white;
+border-left: 2px solid #00deff;
+border-right: 2px solid #8c4bff;
+box-sizing: border-box;
+background-position: 0 0, 0 100% ;
+background-repeat: no-repeat;
+background-size: 100% 2px;
+background-image: linear-gradient(to right, #00deff 0%, #8c4bff 100%), linear-gradient(to right, #00deff 0%, #8c4bff 100%);
+font-size: 16px;
+font-weight: 700;
+line-height: 48px;
+text-transform: uppercase;
+transition: 0.2s;
+}
+
+.blockitem__descriptionright div a{
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.blockitem__descriptionright div a span{
+color: #303030;
 }
 
 .blockitem__descriptionright button:hover{
-    background-color: rgba(42, 136, 255, 0.2);
-    transition: 0.2s;
+background-color: rgba(42, 136, 255, 0.2);
+transition: 0.2s;
 }
 
 .portfolio__button{
-    display: flex;
-    justify-content: center;
+display: flex;
+justify-content: center;
 }
 
 .portfolio__button button{
-    width: 230px;
-    height: 69px;
-    border: none;
-    border-radius: 5px;
-    background-image: linear-gradient(to right, #00deff 0%, #8c4bff 100%);
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 48px;
-    text-transform: uppercase;
-    color: white;
-    border: none;
-    transition: 0.1s;
-    margin-top: -31px;
+width: 230px;
+height: 69px;
+border: none;
+border-radius: 5px;
+background-image: linear-gradient(to right, #00deff 0%, #8c4bff 100%);
+font-size: 20px;
+font-weight: 700;
+line-height: 48px;
+text-transform: uppercase;
+color: white;
+border: none;
+transition: 0.1s;
+margin-top: -31px;
 }
 
 .portfolio__button button:hover{
-    /* box-shadow: 0 0 12px 1px rgba(42, 136, 255, 0.8); */
-    transform: scale(1.02);
-    transition: 0.1s;
-    background-image: linear-gradient(to right, #00deff 0%, #8c4bff 100%);
+transform: scale(1.02);
+transition: 0.1s;
+background-image: linear-gradient(to right, #00deff 0%, #8c4bff 100%);
 }
-
 
 
 @media only screen and (max-width: 1200px){
-    .portfolio__blockblocks{
-        justify-content: center;
-    }
+.portfolio__blockblocks{
+    justify-content: center;
+}
+/* .portfolio .container::before{
+    display: none;
+} */
 }
 
 @media only screen and (max-width: 600px){
-    .portfolio__blockblocks .blockitem{
-        width: 94vw;
-        height: auto;
-        padding-bottom: 20px;
-    }
-    .portfolio__blockblocks .blockitem .blockitem__foto{
-        width: 91vw;
-        height: 52.5vw;
-    }
-    .portfolio__blockblocks .blockitem .blockitem__foto img{
-        width: 100%;
-        height: 100%;
-    }
-    .blockitem__description{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .blockitem__descriptionleft{
-        text-align: center;
-        margin-bottom: 16px;
-    }
+.portfolio__blockblocks .blockitem{
+    width: 94vw;
+    height: auto;
+    padding-bottom: 20px;
 }
+.portfolio__blockblocks .blockitem .blockitem__foto{
+    width: 91vw;
+    height: 52.5vw;
+}
+.portfolio__blockblocks .blockitem .blockitem__foto img{
+    width: 100%;
+    height: 100%;
+}
+.blockitem__description{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.blockitem__descriptionleft{
+    text-align: center;
+    margin-bottom: 16px;
+}
+}
+
+                                            /* стили для скрытыя блоков с превьхами */
+
+                                    
+.design{
+display: none;
+}
+
+.btn_moredesign{
+display: none;
+}
+
+.hiddenblockpages, .hiddenblockpages2{
+display: none;
+}
+
+.hiddenblockdesign2, .hiddenblockdesign3 {
+display: none;
+}
+
+                                                /* popaps */
+                                            
+.notbuildpopap{
+display: none;
+justify-content: center;
+background-color: rgba(0, 0, 0, 0.8);
+position: fixed;
+z-index: 1000;
+left: 0;
+right: 0;
+bottom: 0;
+top: 0;
+z-index: 100000000000000;
+/* display: flex; */
+align-items: center;
+}
+
+.fuldesign {
+/* width: 100%;
+height: 100%; */
+padding: 40px 0 40px 0;
+display: none;
+background-color: rgba(0, 0, 0, 0.8);
+position: fixed;
+z-index: 1000;
+left: 0;
+right: 0;
+bottom: 0;
+top: 0;
+z-index: 100000000000000;
+flex-direction: column;
+align-items: center;
+overflow: scroll;
+}
+
+.fuldesign .blockfoto{
+display: flex;
+flex-direction: column;
+align-items: center;
+height: auto;
+}
+
+.fuldesign img{
+width: 70%;
+height: auto;
+position: relative;
+z-index: 10000;
+}
+                                                    
